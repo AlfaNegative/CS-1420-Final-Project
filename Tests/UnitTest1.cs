@@ -15,7 +15,7 @@ public class UnitTest1
     {
         ICharacters Boat = new Character();
         Properties ParkPlace = new(_rentPrice: 35, _propertyPrice: 350);
-        Boat.properties.Add() = ParkPlace;
-        Assert.False(Boat.IsBankrupt());
+        Boat.properties.Add(ParkPlace);
+        Assert.Equal(ParkPlace, Boat.properties[1]);
     }
 }

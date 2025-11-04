@@ -8,4 +8,9 @@ public class Properties : AbstractProperties
         propertyPrice = _propertyPrice;
         rentPrice = _rentPrice;
     }
+
+    public override void example()
+    {
+        throw new NotImplementedException();
+    }
 }

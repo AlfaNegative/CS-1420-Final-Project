@@ -1,7 +1,7 @@
 
 public class Character : ICharacters
 {
-    public List<Properties> properties { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+    public List<Properties>? properties { get; set; }
     public int Money { get; set; } = 100;
 
     public bool IsBankrupt()
