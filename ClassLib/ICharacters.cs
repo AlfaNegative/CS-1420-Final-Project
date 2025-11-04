@@ -1,6 +1,7 @@
 ﻿public interface ICharacters
 {
-    
+    List<Properties> properties { get; set; }
     int Money { get; set; }
-    bool IsBankrupt { get; set; }
+    public bool IsBankrupt();
+    
 }
